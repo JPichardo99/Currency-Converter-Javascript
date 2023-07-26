@@ -1,0 +1,147 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: monospace, sans-serif;
+}
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+padding: 0 10px;
+background: #ACBD78;
+animation: changeBackground 30s infinite alternate-reverse;
+}
+
+.wrapper {
+width: 370px;
+padding: 30px;
+border-radius: 20px;
+background: #fff;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.wrapper header{
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+}
+.wrapper form{
+margin: 40px 0 20px 0;
+}
+form :where(input, select, button){
+width: 100%;
+outline: none;
+border-radius: 5px;
+border: none;
+}
+form p{
+font-size: 15px;
+margin-bottom: 15px;
+}
+form input{
+height: 50px;
+font-size: 17px;
+padding: 0 15px;
+border: 1px solid #000;
+border-radius: 15px;
+}
+form .drop-list{
+display: flex;
+margin-top: 20px;
+align-items: center;
+justify-content: space-between;
+}
+.drop-list .select-box{
+display: flex;
+width: 115px;
+height: 45px;
+align-items: center;
+border-radius: 15px;
+justify-content: center;
+border: 1px solid #000;
+}
+.select-box img{
+max-width: 21px;
+}
+.select-box select{
+width: auto;
+font-size: 16px;
+background: none;
+margin: 0 -5px 0 5px;
+}
+.drop-list .icon{
+cursor: pointer;
+margin-top: 30px;
+font-size: 22px;
+}
+form .exchange-rate{
+font-size: 17px;
+text-align: center;
+margin: 20px 0 30px;
+background-color: #4e64d4;
+padding: 15px;
+border-radius: 15px;
+margin-bottom: 10px;
+color: #fff;
+}
+form button{
+height: 52px;
+color: #fff;
+font-size: 15px;
+cursor: pointer;
+background: #3651ff;
+transition: 0.3s ease;
+border-radius: 15px;
+}
+form button:hover{
+background: #4e64d4;
+}
+
+/*author information*/
+.info-autor {
+	letter-spacing: 2px;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.info-autor>p {
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 150%;
+	border: none;
+	color: #000;
+	padding: 10px;
+}
+
+.info-autor>p>a {
+	text-decoration: none;
+	color: #000;
+}
+
+.info-autor>p>a:hover {
+	color: #495057;
+}
+
+@keyframes changeBackground {
+
+	0%,
+	100% {
+		background: #F400A1;
+	}
+
+	25% {
+		background: #F61651;
+	}
+
+	50% {
+		background: #0567F2;
+	}
+
+	75% {
+		background: #18ED8F;
+	}
+}
