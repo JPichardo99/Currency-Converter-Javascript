@@ -38,5 +38,5 @@
 	<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />
 </div>
 <hr/>
-<strong>➡️ <a href = "">Demo</a></strong>
+<strong>➡️ <a href = "https://jpichardo99.github.io/Currency-Converter-Javascript/">Demo</a></strong>
 </samp>
